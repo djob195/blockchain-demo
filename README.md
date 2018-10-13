@@ -29,7 +29,7 @@ npm install
 
 * Test to instance a block
 * Test to Genesis Function
-
+* Test to mineBlock Function
 ```
 cd to project path
 npm run dev-test
