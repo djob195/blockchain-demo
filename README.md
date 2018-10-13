@@ -27,7 +27,8 @@ npm install
 
 ### My first block
 
-Test to instance a block
+* Test to instance a block
+* Test to Genesis Function
 
 ```
 cd to project path
