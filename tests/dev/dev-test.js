@@ -1,4 +1,4 @@
-const Block = require('../objects/block');
+const Block = require('../../objects/block');
 
 /**
  * Test My First Block
