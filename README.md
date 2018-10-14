@@ -32,8 +32,24 @@ npm install
 * Test to mineBlock Function
 ```
 cd to project path
-npm run dev-test
+npm run 
 ```
+
+### Server peer to peer
+* Original server (first)
+```
+nodemon ./app
+```
+
+* Other peer, where:
+
+** N is unique number peer
+** Z is original server
+
+```
+ HTTP_PORT=300N P2P_PORT=500N PEERS=ws://localhost:500N-1,ws://localhost:500N-2, ... ws://localhost:500Z N npm run dev
+```
+
 ## Built With
 
 * [Node.js](https://nodejs.org/es/) - is a JavaScript runtime built on Chrome's V8 JavaScript engine.
